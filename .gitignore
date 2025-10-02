@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# FastAPI
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+debug_patterns.db
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model cache (sentence-transformers)
+.cache/
+models/
+
+# Ollama (if downloaded locally)
+ollama/
